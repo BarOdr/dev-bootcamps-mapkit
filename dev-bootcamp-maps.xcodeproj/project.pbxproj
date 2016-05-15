@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		CC43C5D71CE890360008C469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43C5D61CE890360008C469 /* AppDelegate.swift */; };
 		CC43C5D91CE890360008C469 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43C5D81CE890360008C469 /* FirstViewController.swift */; };
-		CC43C5DB1CE890360008C469 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43C5DA1CE890360008C469 /* SecondViewController.swift */; };
+		CC43C5DB1CE890360008C469 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43C5DA1CE890360008C469 /* LocationVC.swift */; };
 		CC43C5DE1CE890360008C469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC43C5DC1CE890360008C469 /* Main.storyboard */; };
 		CC43C5E01CE890360008C469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC43C5DF1CE890360008C469 /* Assets.xcassets */; };
 		CC43C5E31CE890360008C469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC43C5E11CE890360008C469 /* LaunchScreen.storyboard */; };
 		CC43C5EE1CE890370008C469 /* dev_bootcamp_mapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43C5ED1CE890370008C469 /* dev_bootcamp_mapsTests.swift */; };
 		CC43C5F91CE890370008C469 /* dev_bootcamp_mapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43C5F81CE890370008C469 /* dev_bootcamp_mapsUITests.swift */; };
+		CC43C6071CE8A7A50008C469 /* BootcampAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC43C6061CE8A7A50008C469 /* BootcampAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		CC43C5D31CE890360008C469 /* dev-bootcamp-maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dev-bootcamp-maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC43C5D61CE890360008C469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC43C5D81CE890360008C469 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CC43C5DA1CE890360008C469 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CC43C5DA1CE890360008C469 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		CC43C5DD1CE890360008C469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC43C5DF1CE890360008C469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC43C5E21CE890360008C469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		CC43C5F41CE890370008C469 /* dev-bootcamp-mapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dev-bootcamp-mapsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC43C5F81CE890370008C469 /* dev_bootcamp_mapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dev_bootcamp_mapsUITests.swift; sourceTree = "<group>"; };
 		CC43C5FA1CE890370008C469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC43C6061CE8A7A50008C469 /* BootcampAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootcampAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				CC43C5D61CE890360008C469 /* AppDelegate.swift */,
 				CC43C5D81CE890360008C469 /* FirstViewController.swift */,
-				CC43C5DA1CE890360008C469 /* SecondViewController.swift */,
+				CC43C5DA1CE890360008C469 /* LocationVC.swift */,
+				CC43C6061CE8A7A50008C469 /* BootcampAnnotation.swift */,
 				CC43C5DC1CE890360008C469 /* Main.storyboard */,
 				CC43C5DF1CE890360008C469 /* Assets.xcassets */,
 				CC43C5E11CE890360008C469 /* LaunchScreen.storyboard */,
@@ -262,9 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC43C5DB1CE890360008C469 /* SecondViewController.swift in Sources */,
+				CC43C5DB1CE890360008C469 /* LocationVC.swift in Sources */,
 				CC43C5D71CE890360008C469 /* AppDelegate.swift in Sources */,
 				CC43C5D91CE890360008C469 /* FirstViewController.swift in Sources */,
+				CC43C6071CE8A7A50008C469 /* BootcampAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +495,7 @@
 				CC43C5FF1CE890370008C469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC43C6001CE890370008C469 /* Build configuration list for PBXNativeTarget "dev-bootcamp-mapsTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				CC43C6021CE890370008C469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC43C6031CE890370008C469 /* Build configuration list for PBXNativeTarget "dev-bootcamp-mapsUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +513,7 @@
 				CC43C6051CE890370008C469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
